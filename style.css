@@ -1,0 +1,118 @@
+html, body, #home{
+    height: 100%;
+    overflow-x: hidden;
+    
+}
+body{
+    background:url(img/fundo.jpg),
+    linear-gradient(50deg, #2e5e9e, #2263b8);
+    background-attachment: fixed;
+}
+
+.caixa{
+    padding: 60px 0;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+/* Barra de navegação
+****************************/
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+       
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #94acc2;
+    text-decoration: underline;
+}
+nav.navbar-transparente{
+    padding: 15px 0px;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.text{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carousel-control-next, .carousel-control-prev{    
+    width: 10%;    
+}
+/*Rodapé
+-------------------------------*/
+footer {
+    background: #000;
+    padding: 50px 0 20px 0;
+    position: relative;
+
+}
+footer h4{
+    color: #919496;
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+footer .navbar-nav a{
+    color: white;
+    font-size: 0.8em;
+}
+footer .navbar-nav a:hover{
+    color: #9bf0e1;
+    font-size: 0.8em;
+    text-decoration: none;
+}
+footer ul{
+    list-style: none;
+}
+footer ul li{
+    float: right;
+    margin: 0 5px;
+}
+footer p a {
+    margin: 5px 15px;
+}
+
+form{
+
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+    
+    iframe{
+        width: 250px;
+        height: auto;        
+    }
+    form{
+        width: 100%;
+    }
+   
+ }
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    
+ }
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    iframe{
+        width: 450px;
+        height: 315px;
+    }
+ }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    iframe{
+        width: 450px;
+        height: 315px;
+    }
+ }
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+
+ }
