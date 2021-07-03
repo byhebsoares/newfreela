@@ -80,6 +80,9 @@ form{
 
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) { 
+    #logo{
+        width: 55px;
+    }
     
     iframe{
         width: 250px;
